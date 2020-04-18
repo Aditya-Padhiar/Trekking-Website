@@ -1,0 +1,506 @@
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <title>A Himalayan Trek To Bhrigu Lake - Experience - The Dream Trek</title>
+        <link rel="icon" href="./images/Logo-squircle.png">
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+
+            .logo{
+                height: 2.6rem;
+                width: 2.6rem;
+                margin-top: 1rem;
+                vertical-align: text-bottom;
+            }
+            
+            .logo_font{
+                margin-left: 15px;
+                font-size: 2.1rem;
+                font-family: baskerville old face;
+            }
+
+            .image-container{
+                margin: 4% 5% 3% 5%;
+            }
+
+            .new-container{
+                margin: 5%;
+            }
+
+            .author-info{
+                margin: 0 5% 5% 5%;
+                height: 8%;
+            }
+
+            .author-image-size{
+                height: 4rem;
+                width: 4rem;
+                margin: 0;
+                
+            }
+
+            .text-info{
+                font-weight: lighter;
+                vertical-align: text-bottom;
+            }
+
+            .bookmark{
+                margin: 10px 20px 22px 10px;
+            }
+
+            .upper_margin{
+                margin-top: 3%;
+            }
+            .author-name{
+                font-weight: bolder;
+            }
+
+            .p_content{
+                letter-spacing: 0.06rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+                margin-top: 5%;
+                font-family: merriweather;
+            }
+
+            .h4_content{
+                margin-top: 5%;
+                font-family: libre franklin;
+                font-weight: bold;
+            }
+
+            .h5_content{
+                margin-top: 5%;
+                font-family: libre franklin;
+                font-weight: bold;
+            }
+
+            .p_content_italic{
+                letter-spacing: 0.07rem;
+                font-size: 1.65rem;
+                font-weight: 480;
+                margin-top: 5%;
+                font-family: merriweather;
+                font-style: italic;
+            }
+
+            .p_content_italic_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.65rem;
+                font-weight: 680;
+                margin-top: 5%;
+                font-family: merriweather;
+                font-style: italic bold;
+            }
+
+            blockquote{
+                font-family: merriweather;
+                font-size: 1.65rem;
+            }
+
+            p.p_content_italic{
+                font-family:merriweather ;
+                font-style: italic;
+                font-size: 1.65rem;
+            }
+
+            .more_content_image_container{
+                height: 180px;
+                margin-top: 1%;
+            }
+
+            .author-info_more_content{
+                margin: 0 5%;
+                width: 90%;
+            }
+
+            h4{
+                font-family: merri weather;
+            }
+
+            .center{
+                font-family: merriweather;
+            }
+
+            a{
+                font-family: Open Sans; 
+                
+            }
+
+            .author-name{
+                font-weight: 600;
+                font-size: 1rem;
+                font-family: Open sans;
+            }
+            .author-image-size_more_content{
+
+                height: 4rem;
+                width: 4rem;
+                margin-right: 5%;
+            }
+
+            .more_content_cards_row{
+                display: inline;
+            }
+
+            .more_content_cards_col{
+                display: inline-block
+            }
+
+            .top-bottom_margin{
+                margin: 2% 0 ;
+            }
+
+            .bookmark_more_content{
+                margin-top: 7px;
+            }
+
+            .brand_footer{
+                margin: 0;
+                padding: 1.8% 0 2% 0;
+                font-family: baskerville old face;
+                font-size: 1.5vw;
+            }
+
+            .footer{
+                padding-top: 3%;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+            
+            h5{
+                font-family: libre franklin;
+            }
+
+            .bullet{
+                font-weight: bold;
+                font-size: 40px;
+                margin-right: 2rem;
+            }
+
+            .tripledot{
+                font-size: 40px;
+            }
+
+
+            .cover_container{
+                margin: 0 auto;
+                width: 100%;
+                min-height: 70%;
+                background-image: url("/images/Bhrigu-1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-blend-mode: darken;
+            }
+
+            .review_box{
+                background-color: rgb(252, 248, 248);
+                opacity: 100%;
+                padding: 1rem;
+                border-radius: 1rem;
+                margin-top: 2rem;
+            }
+
+            .smooth_edges{
+                border-radius: 0.8rem;
+            }
+
+            .trek_card{
+                margin: 3% 2%;
+                border: lightgrey solid 1px;
+                border-radius: 0.8rem;
+            }
+
+            .card_image_container{
+                border-radius: 0.8rem ;
+            }
+
+            .info_container{
+                padding: 1rem 1.2rem;
+            }
+
+            .card_header{
+                font-size: 2rem;
+            }
+
+            .card_p{
+                font-size: 1.2rem;
+                margin: 0;
+            }
+
+            .card_image_container{
+                height: auto;
+                width: 100%;
+            }
+
+            .trek_card_layout_container{
+                margin: 0;
+                padding: 5% 0;
+                background-color: rgb(228, 228, 228);
+            }
+
+            .trek_card_lifted_container{
+                width: 90%;
+                border: lightgrey 1px solid;
+                border-radius: 1rem;
+                margin: 0 5% ;
+                padding: 1.5% 1.5% 0.5% 1.5%;
+                background-color: #fff;
+            }
+
+            .a_padding{
+                padding: 0.1rem;
+            }
+            
+            .h5_more_content{
+                font-size: 1.6rem;
+            }
+            
+        </style>
+    
+      </head>
+<body>  
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="Showcase_img responsive-img logo" ><span class="hide-on-med-and-down logo_font">ELEMENT</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right ">
+                <li><a href="trending.html" class="black-text hide-on-med-and-down">Trending</a></li>
+                <li><a href="blogs.html" class="black-text hide-on-med-and-down">Blogs</a></li>
+                <li><a href="FAQ.html" class="black-text hide-on-med-and-down">FAQs</a></li>
+                <li>
+                  <i class="material-icons black-text search_icon">search</i>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="trending.html" class="black-text">Trending</a></li>
+                <li><a href="blogs.html" class="black-text">Blogs</a></li>
+                <li><a href="FAQ.html" class="black-text">FAQs</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    
+        <div class="cover_container ">
+        </div>
+        <h3 class="center">A Himalayan Trek To Bhrigu Lake</h3>
+
+    <div class="container">
+        
+        <div class="fixed-action-btn">
+            <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
+        </div>
+        
+
+        <div class="row review_box valign-wrapper z-depth-1">
+            <div class="col s3 m2 l1 left-align"><img src="https://media-exp1.licdn.com/dms/image/C5103AQH7W-UfibNKgQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=Ev65cqlGvsmq4KGu8KfgEDz7_6YDd4v2DLywhisiLuQ" class="circle author-image-size " ></div>
+            <div class="col s9 m10 l11"><p class="a_padding"><a href="author3.html"><span class="author-name black-text">Kushal Solanki</span></a><a class="right"><i class="material-icons bookmark">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p></div>
+        </div>
+        
+        
+        <div class="new-container">
+            <h4 class="center">Day 1</h4>
+            <p class="p_content">Many of us have dreamt to be standing in the midst of the Himalayas at least once in our life. Even thinking about hiking on the majestic Mountains is fascinating on its own. Sleeping in tents, sleeping bags, waking up to witness the sublime mountains right in front of you, managing all your stuff personally without any help and ending your day with an inviting camp fire.</p>
+            <p class="p_content">Fortunately, I have been going on such treks since last three years and recently, and I got the opportunity to visit the mountains on a group tour once again and this time it was supposed to be a challenging trek to Bhrigu Lake. This lake lies to the eastern side of the Rohtang Pass and happens to be a favorite hiking destination for people living near Manali. It is believed that great sage Bhrigu used to meditate here and hence, it is rendered sacred.  Moreover, the local folks believe that the lake never freezes completely. Trek to this serene part of nature is three days long.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170612_180322-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1">
+            </div>
+            <p class="p_content">My base camp site was at Rumsu village. It is 7-8 km away from Naggar in Kullu district of Himachal Pradeash. The road to Rumsu is rustic and as you travel further away from Naggar and get nearer to the village, you feel like you are delving into the past leaving all taste of modernity behind and gladly welcome the rustic charm of nature. Once you reach Rumsu, you find yourself in a typical Himalayan town that’s full of old wooden homes and beautiful apple orchards. A small temple dedicated to God Jamlu stands is in the center of the town. All activities go around in small ground adjacent to this Temple. The villagers here are quite friendly and they share their stories very enthusiastically once they get to know you.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170613_062154-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1" data-caption="View from campsite.">
+            </div>
+            <p class="p_content">I reached Rumsu around ten in the morning. After the registration process, one of the organizers gave the group an introductory speech about the campsite and gave us our schedule for the day. Breakfast was ready by that  time and we were served aloo paratha along with pickle and hot coffee. Now, once you are on a trek, you are expected to take care of your own stuff, which included cleaning your own plates; I  silently followed suit. After that, I collected my rucksack and went to my allocated tent. There were three otherfellow  travellers with me in that tent.</p>
+            <div class="image-container">
+                <img src="/images/Bhrigu-5.jpg" class="responsive-img materialboxed smooth_edges z-depth-1 ">
+            </div>
+            <p class="p_content">The first activity for the day was an acclimatization walk for which I had to fill my rucksack within 15 minutes. Immediately after that, I joined the others standing on the ground and without any delay, we began our exercise. The idea behind this walk was to get accustomed with the weather conditions that would help us to get comfortable in the mountains. For first timers, this walk is the very first lesson to understand that treading on the mountains at high altitudes is not as same and easy as walking on straight cement pavement; it’s the reason people call it hiking, not mere walking.</p>
+            <p class="p_content">For me, it wasn’t the first time, so after informing my tour guy, I parted from the group for a while and went out to roam around the town. A typical Himalayan town always fascinates me and I’m ever ready to interact with beautiful souls living there. I interacted with children going to the school, an owner of a small shop to the lady who was working in an apple farm and listened to their interesting tales.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/2.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Rumsu Village">
+            </div>
+            <p class="p_content">After spending a few good hours in the town, I headed back to the camp site as others were about to end their walk. As soon as we reached there, lunch was served and all of us enjoyed a typical north Indian cuisine. Our second activity for the day was rock climbing and rappelling. For that, our group was divided into two teams. Both the teams engaged themselves concurrently with rock climbing and rappelling.</p>
+            <p class="p_content">Those who haven’t indulged in these sports yet, let me help you a bit; in rock climbing, as the name suggests, you climb on steep rock with the help of a rope and natural grip that’s there on the particular rock. Quite interestingly, rappelling is totally opposite of the former one; here, you descend from a steep rock, which in our case turned out to be vertical. Both the adventure activities are exciting and you gets a chance to know other group members better as these are group activities. Few folks enjoyed so much that they rappelled more than once.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/DSC_1590-1200x801.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Rappeling Activity">
+            </div>
+            <p class="p_content">After a day full of climbing and descending rocks, we went back to our camp site exhausted only to find that our orientation lecture for our trek tomorrow was being held. The tour guys took this opportunity to share every detail about the Trek. Though it was not my first trek, I ended up learning so many new things by the time the lecture ended. Post that, we went to collect our sleeping bags from the office. On the mountains, where temperature easily slides into the negative, you can’t dare to sleep without these as you lack concrete shelter here. Once the bags were collected, we were left with half an hour free time that was followed by dinner. In the cold, we gorged on the plate of hot rice and rajma with a bowl of custard that left a lingering sweet taste.</p>
+            <p class="p_content">The next and last task for the day was to pack our rucksack according to the advice given to us in the lecture. You use a particular technique to pack your rucksack that’s useful during your climb with your load transferred equally on both shoulders. Small things like this matter a lot on high altitudes where the air is nothing short of luxury and every step that you take ahead reduces your energy level exponentially. So, done with the packing, I couldn’t wait to sneak into my sleeping bag as I was beat after an eventful day, although I knew this was just the beginning of an adventure. The next few days were about to get crazier and merrier. With this thought, I shut my eyes and surrender myself hoping to wake up to a beautiful misty morning.</p>
+            <h4 class="center"> Day 2</h4>
+            <p class="p_content">So, after an eventful Day one journey, Day 2 started little early around five with the morning wake up call. We woke up to a cold yet splendid morning as one would expect and as soon as I stepped outside the tent, I saw the sun rising behind snow clad mountains. It was exactly the same picture we used to sketch in our art class as a kid; two hill tops with the rising sun in between them 🙂 ; the birds seem to be happy enjoying the brand new day and my spirits rose along with it as I could smell the fresh air around me.</p>
+            <p class="p_content">So, with a hint of nostalgia, I finished my routine activities and although hot water was available in one of the bathrooms, I decided I could do without a bath and chose to lie back and enjoy the beautiful view while everyone else was getting ready for the day. Fair deal, isn’t it? 😀 Around six, breakfast was ready and once again, we savoured some delicious hot parathas. We, then packed our lunch for the trek, as today we were going to enjoy it somewhere between two camp sites. So, as soon as everyone was ready with their rucksack, we bid farewell to the base camp without further ado.</p>
+            <div class="image-container">
+                <img src="/images/Bhrigu-2.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 ">
+            </div>
+            <p class="p_content">We began our ride from Rumsu to Gulaba around seven; so you see, our actual trek starts from Gulaba village that lies on the road to Rohtang Pass. The ride up till here was quite scenic, and fortunately, it happened to be a Tuesday, so we didn’t meet much traffic as Rohtang pass remains closed on that particular day. We reached Gulaba around ten and started our trek with full zest. Hardly had we walked 15 minutes, we spotted a small canteen in the middle of the mountains; the cafe was small and cozy and the stunning view of the snow capped mountains added to its charm effortlessly.</p>
+            <p class="p_content">It was the perfect place to be for the time being and lush green grassland met our eyes everywhere in front of us; to top it all, a hot bowl of Maggi just did the works for us.  Post that gastronomical delight, we handed over our rucksack to the porters at the canteen to avoid a tiresome trek. Our camp site was located at such heights that collecting wood from surrounding areas wasn’t a doable task for us, so we gave extra bucks to the porter for the arrangement of wood and he did the same for the campfire in the evening. As soon as we were done with all the arrangement, we started our trek without wasting any time.</p>
+            <p class="p_content">The terrain was steep and the hike was tiresome. We had to take a break after every 15-20 minutes hike and on the meanwhile, our guide was suggesting breathing techniques and gave us tips about how to drink water during rest. These tricks may seem irrelevant but on high altitude, they are your lifelines. So, once we got used to the conditions around us, our speed increased and we felt more confident with time.</p>
+            <p class="p_content">After plodding for almost two hours, our tummies called out to us and so, we chose a comparatively flat spot to rest our bottom and enjoy our lunch. We ate some yummy pulao (cooked rice with nuts and vegetables) overlooking the bright sky admiring the view that lay in front of us every second of it. You see, its an experience in itself when you rewind and go back to the jam packed office canteen enclosed with concrete walls during lunch hours.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170613_133659-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Clouds Gathering Above During The Trek">
+            </div>
+            <p class="p_content">However, we didn’t sit there long and as soon as we finished our lunch we resumed our trek. It wasn’t long when suddenly clouds began to soar right above us, and our minds began to anticipate a shower but our guide told us they were moving further away from the mountains and there was nothing to worry about really. The terrain was not steep as earlier now, so with increased speed we moved further ahead. However, soon, to our surprise, clouds changed direction and just like that, the weather started to get worse.</p>
+            <p class="p_content">Engulfed by clouds within moments, visibility reduced to zero for few minutes. We reached for our raincoats and wind cheaters from the rucksack and covered ourselves immediately. So, fully covered, we kept walking and after a while, we reached Chor Nallah, a beautiful stream that seemed to flow steadily. We took the opportunity of this beautiful sight and paused for a few minutes to click a few pictures there and crossed it thereafter.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170613_133003-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Chor Nallah">
+            </div>           
+            <p class="p_content">As we moved further, we began to feel a slight shower of snow falling on us. At first, our faces lit up to the very sight of snow in the month of June, but after a while, we realized how challenging it is to walk on snowy terrain. The land is wet, visibility is low, you don’t have any shelter, and the snow is hitting you hard, but you can’t afford to stop as you never know how the weather’s going to be after some time; for a fact, it could get worse and work totally against us. So, we continued walking keeping in mind all the while that our next campsite wasn’t that far anymore.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/DSC_1656-1200x801.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Campsite Amidst Mountains">
+            </div> 
+            <p class="p_content">We reached there around two and immediately retreated inside our tents as the snowfall was still generous. That’s the thing with mountains, you start your trek when the sky is crystal clear and the sun is shining bright but then, it only takes minutes and you find yourself amidst a sudden snowfall. Its a thing one should experience this at least once in a life time. After a while as the snow stopped, everyone stepped out of of their tents. We were glad to see that snacks were ready by that time and so we gladly welcomed it along with some steaming hot tea. The evening was too cold due to snowfall but for some time the sun was liberal enough to shower its rays over us, so taking maximum benefit of it, many of us captured some fabulous pictures.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170613_181106-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Evening at Campsite ">
+            </div> 
+            <p class="p_content">Dinner was served around seven after which came the best part. The CAMP FIRE! How could you not look forward to that on a cold misty night? It is one of the most favorite part of my adventures and I know the feeling is mutual with the lot of you. We sat around the mighty fire and sang songs; shared our stories and enjoyed cups of bournvita. The best thing about the night in the mountains is that you can watch the whole Milky Way and luckily that night, we were blessed with a clear sky and hence, enjoyed a breath-taking view of our galaxy.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/07/IMG_20170614_195408_01_01-1200x2031.jpg"  class="responsive-img materialboxed smooth_edges z-depth-3 " data-caption="Campfire ">
+            </div> 
+            <p class="p_content">The temperature was below zero even before nine so we went back to our tents before the mercury meter moved further down. We wrapped ourselves in our sleeping bags once again; however, tonight, no one seemed to complain and everyone seemed to be comfortable with the idea of it… and so we dozed off to a beautiful silent night.</p>
+            <h4 class="center">Day 3</h4>
+            <p class="p_content">If you have been catching up with my travel tale off late, you must be anticipating Day 3 by now as much as I was. Those of you who have no clue how did I end up here, you may follow up the Day 1 trail here. Anyways, we knew our rendezvous with the lake would happen today; however, the real challenge was to reach Bhrigu Lake and retreat back to our camps here the same day. So, with this morning thought, we woke up a little late around 6, which is considered late at higher altitudes. At heights such as this one, marked at 3500ft, the sun wakes up quite early, so by the time we were up, the sun seemed to smile brightly at us…:-)</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/08/DSC_1713-1200x801.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Snowy Trek To Bhrigu Lake.">
+            </div> 
+            <p class="p_content">We had our usual breakfast of stuffed parathas with hot tea around seven; you might be thinking that why on earth we ate parathas every single day; but you see, hiking requires tremendous energy and for that one needs enough calories to keep going. Having gorged it down all our throats, we packed our lunch. Lunch was a bit special for me as we had brown chickpeas and Puris which I looked forward to all the more in this weather.</p>
+            <p class="p_content">Post that, the group began to get ready for the trek along with the rucksacks. Each of us had to carry our own rucksack for that day as most of the trek was going to be in snow. So, without wasting any more time, we began our ascent at around eight o’clock.</p>
+            <p class="p_content">The first portion of the climb which was still visible from our campsite was too steep. Enervated, we took a short break just after the first climb. However, the day was going to be long and there were to still miles to go before we reached the sacred lake, so we continued thereafter. Hardly had we covered a small distance, we had our encounter with our former loyal partner, the lovely enticingly dangerous snow and this is how we knew, it wasn’t leaving our side anytime sooner.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/08/DSC_1749-1200x801.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="View of campsite after the first climb">
+            </div> 
+            <p class="p_content">Our guide was doing his part, giving instructions that included breathing and climbing techniques and few thumb rules which we had to stick to during the entire snow trek. But I must say, walking on hard snow with steep slopes was enfeebling as well as exciting at the same time.  You had to be on super alert mode all the time. After climbing two such slopes, three of our team mates got bone tired and none of them wanted to go further, but, our smart guide, somehow, managed to motivate two out of three fellows to keep going.</p>
+            <p class="p_content">Leaving one person behind; we decided to move ahead. There seemed to be not even a single defined route; but then you would be a fool to expect well cut roads enroute such a journey. To top it all, the snow came really hard on us and frankly, there were times when each step forward seemed to be a milestone. Our guide guiding us from the front made way for us with the help of his French axe. He seemed to be like a blessing during the time as we had no choice but to strictly follow the path curved out by him on a single line.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/08/DSC_1705-1200x801.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="En route the lake">
+            </div> 
+            <p class="p_content">It really start to get to us at one point as we trudged further… we had to shell out every ounce of our energy, and our lungs were begging us to stop, but that wasn’t an option anymore and frankly, none of us even wanted to quit because the lake was not far away. So, we mustered all our strength back as our guide continued to push us and by the time our legs gave up, we had conquered the last glacier as well. Phew! Having crossed that part, we finally reached the mighty gorgeous lake.</p>
+            <p class="p_content">The first sight of the lake was simply gorgeous. We couldn’t wait to get near the lake; as soon as we were there, our eyes met the bone freezing water. The lake is believed to be sacred but, we dared to feel with with our legs there and sat there and enjoyed the view. Capturing this beautiful moment in our cameras, we spent some quality time there. Folks embark on this challenging trek to Bhrigu Lake as it is popular as one of the best locations for meditation. I wanted to experience that feeling by practically doing it.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/08/IMG_20170614_125253-1200x900.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Bhrigu Lake">
+            </div> 
+            <p class="p_content">And so, I decided to move away from the group and walked a little towards the side and sat there and meditated for quite a few minutes. Such feelings can never be expressed by words, but i could tell you this; it was absolutely soul satisfying and felt ethereal. Having spent enough time there, we got hold of our bottoms and began with our descent.</p>
+            <p class="p_content">A descent usually seems easy as you tend to walk faster, but then that is exactly where it turns challenging. The terrain becomes even more riskier; with steeper slopes where could easily risk a slide to which there’s no stopping. We had only one guide with us so he could not allow us to slide as most of us didn’t know the proper technique;</p>
+            <p class="p_content">We descended two slopes walking really carefully. Everyone was hungry by then due to such an exhausting trek, so we chose a spot to devour our lunch at a place which was drier than the rest of the surroundings. After finishing lunch, we started walking further down but everyone was falling down on snow because of the sheer slope and the hard snow, so our guide had no choice but to teach us how to slide; thereafter everyone started sliding down on the snow. It was so exhilarating, all we had to do was sit or sleep properly on the snow and let the slope do its job. Hell of a ride back, undoubtedly! It felt like we were living a movie!</p>
+            <p class="p_content">Enjoying all this we reached our camp site around four. Snacks were ready when we reached and they served us steamy hot pakodas. Who would say no to that after such a tiring long trek? We finished them all and spent the rest of the evening doing nothing but enjoying stunning nature all around us. Dinner was served afterwards and the campfire was set up.</p>
+            <p class="p_content">Sitting by the fire, without uttering a word, just understanding each other’s silence and staring at the view around; we chose to rejoice our little victory. Everyone was happy and sad at the same time, happy because we had accomplished our mission and sad because this was our last night together. Its easy to forge bonds naturally as you are a world away from mobile networks and inevitably end up spending the days together without anything else to distract you. Your group becomes your whole world during such journeys.</p>
+            <div class="image-container">
+                <img src="https://triptaptoe.com/getaways/wp-content/uploads/2017/08/gulaba-min.jpg"  class="responsive-img materialboxed smooth_edges z-depth-1 " data-caption="Gulaba Village in Winters">
+            </div> 
+            <p class="p_content">After a while, everyone slowly retreated to their tents and dozed off in their sleeping bags for the last time. We all had crafted lasting memories during these past three days, met like minded folks who were strangers until then, probably one of the best parts of a journey.</p>
+            <p class="p_content">Next morning we started our descent towards Gulaba from where we took our ride back to Manali. Sadly, we had met our end, it was time to depart. Visiting a typical Himalayan town to hiking on steep terrain; falling asleep under millions of stars to wake up and witness majestic snow clad mountains; nerve wrecking snow slides; befriending strangers from different states to inviting them to visit our home town, all these were part of a just a single mesmerizing trek. One must go for such a trek at least once in life. It might steal you away from your home but brings you closer to your soul.</p>
+            <p class="tripledot center-align"> . . .</p>
+        </div>
+    </div>
+
+
+<div class="more_content grey lighten-5">
+    <div class="container">
+        <h5 class="h5_content"><br>More Articles For You</h5><hr class="top-bottom_margin">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="trek_card z-depth-1 hoverable">
+                    <a href="article1.html">
+                        <img src="/images/blog1-cover.jpeg" alt="" class="responsive-img z-depth-1 smooth_edges">
+                    </a>
+                    <div class="info_container">
+                        <a href="article1.html">
+                            <h5 class="h5_more_content center-align black-text">Bhrigu Lake Trek in Monsoon</h5>
+                        </a>
+                        <div class="author-info_more_content">
+                            <a href="article1.html"><img src="https://miro.medium.com/fit/c/256/256/2*M0Cki7FH4OnOZ9fDJZ82Ew.jpeg" class="circle author-image-size_more_content left" ></a>
+                            <p><a href="article1.html"><span class="author-name black-text">Tunesh Verma</span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="trek_card z-depth-1 hoverable">
+                    <a href="article2.html">
+                        <img src="/images/blog2-cover.jpg" alt="" class="responsive-img z-depth-1 smooth_edges">
+                    </a>
+                    <div class="info_container">
+                        <a href="article2.html">
+                            <h5 class="h5_more_content center-align black-text">Live deliberately</h5>
+                            <p class="card_p center grey-text text-darken-1">A life lesson learned from trekking the Himalaya mountains</p>
+                        </a>
+                        <div class="author-info_more_content">
+                            <a href="article2.html"><img src="https://cdn-images-1.medium.com/fit/c/200/200/1*kEB-htH3Cz7Cdij5ovLAhw.jpeg" class="circle author-image-size_more_content left" ></a>
+                            <p><a href="article2.html"><span class="author-name black-text">Isabelle Thye </span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="trek_card z-depth-1 hoverable">
+                    <a href="article3.html">
+                        <img src="/images/blog3-cover.jpg" alt="" class="responsive-img z-depth-1 smooth_edges">
+                    </a>
+                    <div class="info_container">
+                        <a href="article3.html">
+                            <h5 class="h5_more_content center-align black-text">A Himalayan Trek To Bhrigu Lake</h5>
+                        </a>
+                        <div class="author-info_more_content">
+                            <a href="article3.html"><img src="https://media-exp1.licdn.com/dms/image/C5103AQH7W-UfibNKgQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=Ev65cqlGvsmq4KGu8KfgEDz7_6YDd4v2DLywhisiLuQ" class="circle author-image-size_more_content left" ></a>
+                            <p><a href="article3.html"><span class="author-name black-text">Kushal Solanki </span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="page-footer black lighten-2 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Discover Element</h6>
+                    <p class="grey-text ">Welcome to a place where words matter. On Element, smart voices and original ideas take center stage - with no ads in sight.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Make Element yours</h6>
+                    <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Become a member</h6>
+                    <p class="grey-text ">Get unlimited access to the best stories on Element— and support writers while you’re at it. Just $5/month.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">ELEMENT</span></p></a>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>

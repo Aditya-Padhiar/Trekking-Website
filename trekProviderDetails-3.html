@@ -1,0 +1,506 @@
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <title>Bikat Adventures - The Dream Trek</title>
+        <link rel="icon" href="/images/Logo-squircle.png">
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            
+            .logo{
+                height: 2.6rem;
+                width: 2.6rem;
+                margin-top: 1rem;
+                vertical-align: text-bottom;
+            }
+            
+            .logo_font{
+                margin-left: 15px;
+                font-size: 2.1rem;
+                font-family: baskerville old face;
+            }
+
+            a{
+                font-family: Open sans;
+            }
+
+            .image-container{
+                margin: 4% 5% 3% 5%;
+            }
+
+            .new-container{
+                margin: 5%;
+            }
+
+            .author-info{
+                margin: 0 5% 5% 5%;
+                height: 8%;
+            }
+
+            .author-image-size{
+                height: 48px;
+                width: 48px;
+                margin: -2px 18px 8px 12px;
+                
+            }
+
+            .text-info{
+                font-weight: lighter;
+                vertical-align: text-bottom;
+            }
+
+            .bookmark{
+                margin: 10px 20px 22px 10px;
+            }
+
+            .upper_margin{
+                margin-top: 3%;
+            }
+            .author-name{
+                font-weight: bolder;
+            }
+
+            .p_content{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+            }
+
+            .h4_content{
+                margin-top: 5%;
+                font-weight: 500;
+            }
+
+            .h5_content{
+                margin-top: 5%;
+                font-weight: 490;
+            }
+
+            .p_content_italic{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_italic_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 680;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .more_content_image_container{
+                height: 180px;
+                margin-top: 10%;
+            }
+
+            .author-info_more_content{
+                height: 3%;
+                margin-bottom: 5%;
+                margin: 0 5% 5% 5%;
+            }
+
+            .author-image-size_more_content{
+                height: 42px;
+                width: 42px;
+                margin-right: 5%;
+            }
+
+            .more_content_cards_row{
+                display: inline;
+            }
+
+            .more_content_cards_col{
+                display: inline-block
+            }
+
+            .top-bottom_margin{
+                margin: 3% 0;
+            }
+
+            .bookmark_more_content{
+                margin-top: 7px;
+            }
+
+            .brand_footer{
+                margin: 0;
+                padding: 1.8% 0 2% 0;
+                font-family: baskerville old face;
+                font-size: 1.5vw;
+            }
+
+            .footer{
+                padding-top: 3%;
+            }
+        
+            .author_icon{
+                height: 45rem;
+                width: 35rem;
+                margin: 5% auto 3% auto;
+            }
+
+            .author-name{
+                margin: 0 auto;
+            }
+
+            .author_bio{
+                margin: 0 auto;
+                font-size: 1.5rem;
+                width: 60%;
+                line-height: 1.8rem;
+            }
+
+            .following{
+                margin: 2.5% auto 2% auto;
+            }
+
+            .bolder{
+                font-weight: bold;
+            }
+
+            button{
+                background-color: white;
+                border: solid;
+                color: black;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 625;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 1rem;
+                border-width: 1.5px;
+                margin-bottom: 5%;
+            }
+
+            .article_card{
+                padding: 0% 0% 8% 0%;
+                margin: 3% auto;
+                border-radius: 0.4rem;
+                height: min-content;
+            }
+
+            .cover_image{
+                width: 100%;
+                margin: 0 auto;
+                object-fit: cover;
+                border-radius: 0.4rem 0.4rem 0 0;
+                height: min-content;
+            }
+
+            .title_article_card{
+                width: 90%;
+                margin: 0 auto;
+                padding: 2.5%;
+                font-family: merriweather;
+            }
+
+            .subtitle_article_card{
+                width: 90%;
+                margin: 0 auto;
+                padding: 3%;
+                font-family: merriweather;
+            }
+
+            .cover_image_container{
+                margin: 8% auto 3% auto;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+            
+            h5{
+                font-family: libre franklin;
+            }
+
+            .bullet{
+                font-weight: bold;
+                font-size: 40px;
+                margin-right: 2rem;
+            }
+
+            .tripledot{
+                font-size: 40px;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+
+            .carousel{
+                margin: 3% 0 3% 0;
+            }
+
+            .spec{
+                padding: 0;
+                margin: -2%;
+                font-family: libre franklin;
+            }
+
+            .extra_large{
+                font-size: 2rem;
+                font-weight: bolder;
+                font-family: merriweather;
+            }
+
+            .BN_btn{
+                margin-top: 1.8rem;
+            }
+
+            .carousel-item{
+                height: 50%;
+            }
+
+            .rating{
+                font-size: 1.2rem;
+                margin-bottom: -0.4rem;
+            }
+
+            .margin_top{
+                margin-top: 2rem;
+            }
+
+            .margin_bottom{
+                margin-bottom: 0.4rem;
+            }
+
+            .carousel-item.active{
+                height: min-content;
+            }
+
+            .big_margin_top{
+                margin-top: 0rem;
+                height: max-content;
+            }
+
+            .small_text{
+                font-size: 1rem;
+                
+            }
+
+            .lowdown{
+                margin-left: 4.5rem;
+            }
+            
+            .icon_margin_right{
+                margin-right: 0.5rem;
+                margin-left: 1.5rem;
+            }
+
+            .card_container{
+                padding: 0rem;
+            }
+        </style>
+    
+      </head>
+<body>  
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="Showcase_img responsive-img logo" ><span class="hide-on-med-and-down logo_font">ELEMENT</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right ">
+                <li><a href="trending.html" class="black-text hide-on-med-and-down">Trending</a></li>
+                <li><a href="blogs.html" class="black-text hide-on-med-and-down">Blogs</a></li>
+                <li><a href="FAQ.html" class="black-text hide-on-med-and-down">FAQs</a></li>
+                <li>
+                  <i class="material-icons black-text search_icon">search</i>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="trending.html" class="black-text">Trending</a></li>
+                <li><a href="blogs.html" class="black-text">Blogs</a></li>
+                <li><a href="FAQ.html" class="black-text">FAQs</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="fixed-action-btn">
+            <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
+        </div>
+        
+        
+        <div class="center-align">
+            <img src="https://www.trekthehimalayas.com/assets/images/logo2.png" alt="" class="author_icon  responsive-img materialboxed">
+            <h4 class="author_name">Lan Belic</h4>
+        </div>
+        <hr>
+        <div class="article_card z-depth-1 hoverable">
+            <div class="cover_image_container">
+                <img src="/images/t9-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div class="card_container">
+                <div class="col s12 m12 l12 container>
+                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
+                </div>
+                <div class="col s12 m12 l12 container">
+                    <div class="row ">
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                    </div>
+                    <div class="center-align">
+                        <a class="waves-effect waves-teal btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article_card z-depth-1 hoverable">
+            <div class="cover_image_container">
+                <img src="/images/t1-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div class="card_container">
+                <div class="col s12 m12 l12 container>
+                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
+                </div>
+                <div class="col s12 m12 l12 container">
+                    <div class="row ">
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                    </div>
+                    <div class="center-align">
+                        <a class="waves-effect waves-teal btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article_card z-depth-1 hoverable">
+            <div class="cover_image_container">
+                <img src="/images/t5-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div class="card_container">
+                <div class="col s12 m12 l12 container>
+                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
+                </div>
+                <div class="col s12 m12 l12 container">
+                    <div class="row ">
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                    </div>
+                    <div class="center-align">
+                        <a class="waves-effect waves-teal btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            
+
+            
+            <br>
+            <div class="row">
+                <h3 class="sutitle center-align">  <br>Reviews</h4>
+                <div class="col s12 m10 l10 big_margin_top ">
+                    <div class="author-info">
+                        <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
+                        <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"></a><br> <span class="text-info truncate">November 22, Batch of September 2018</span></p>    
+                        <p class="content">The trek went on very well. Felt very happy trekking with IH , so professional yet sensitive towards the trekkers. Arrangements were very good and comfortable. Definitely makes me come back only to you guys for the rest of my treks.</p>
+                        <hr class="upper_margin">
+                    </div>
+                </div>
+                <div class="col s12 m10 l10 offset-m2 offset-l2 big_margin_top">
+                    <div class="author-info">
+                        <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
+                        <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"></a><br> <span class="text-info truncate">November 2, Batch of September 2018</span></p>    
+                        <p class="contnet">The trek was awesome. I just don't have any words to express it. It rained alot but still every element of nature around us and everyone around made it jus wonderful. I wasn't too excited to see the Bhrigu lake but the journey itself was too good and unforgettable. I must say it's a lifetime experience.</p>
+                        <hr class="upper_margin">
+                    </div>
+                </div>
+                <div class="col s12 m10 l10 big_margin_top">
+                    <div class="author-info">
+                        <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
+                        <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"></a><br> <span class="text-info truncate">November 20, Batch of September 2018</span></p>    
+                        <p class="content">Bhrigu lake trek couldn't have been more beautiful than what I experienced. It felt so beautiful being there in the mountains with cool winds blowing all the way. My first trek ever and I will remember it forever. No matter how much I describe it won't suffice in appreciating the beauty of the place. A major credit goes to Indiahikes of course for making it possible for me. I felt safe throughout the trek in spite of being the only girl. </p>
+                        <hr class="upper_margin">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+        
+    
+        
+
+    </div>
+
+    <footer class="page-footer black lighten-2 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Discover Element</h6>
+                    <p class="grey-text ">Welcome to a place where words matter. On Element, smart voices and original ideas take center stage - with no ads in sight.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Make Element yours</h6>
+                    <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Become a member</h6>
+                    <p class="grey-text ">Get unlimited access to the best stories on Element — and support writers while you’re at it. Just $5/month.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="/images/Logo-squircle.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">ELEMENT</span></p></a>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+            $('.carousel.carousel-slider').carousel({
+                indicators: true,
+                transition:500,
+                interval:300,
+                dist: 0,
+                duration : 100
+            });
+            $('.modal').modal();
+        });
+
+        
+    </script>
+</body>
+</html>
