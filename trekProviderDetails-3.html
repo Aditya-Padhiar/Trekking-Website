@@ -10,7 +10,7 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
-        <title>Bikat Adventures - The Dream Trek</title>
+        <title>Trek The Himalayas - The Dream Trek</title>
         <link rel="icon" href="images/Logo-squircle.png">
         <style>
             html{
@@ -148,9 +148,13 @@
             }
         
             .author_icon{
-                height: 45rem;
-                width: 35rem;
+                height: 42rem;
+                width: 42rem;
                 margin: 5% auto 3% auto;
+            }
+
+            .book-btn{
+                padding: 0.7rem;
             }
 
             .author-name{
@@ -158,12 +162,11 @@
             }
 
             .author_bio{
-                margin: 0 auto;
-                font-size: 1.5rem;
-                width: 60%;
-                line-height: 1.8rem;
+                margin: auto;
+                font-size: 1.8rem;
+                width: 80%;
+                line-height: 3rem;
             }
-
             .following{
                 margin: 2.5% auto 2% auto;
             }
@@ -309,6 +312,60 @@
             .card_container{
                 padding: 0rem;
             }
+
+            .smooth_edges{
+                border-radius: 0.8rem;
+            }
+
+            .btn-hover {
+                margin: 0 auto;
+                width: 10.5rem;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                cursor: pointer;
+                margin: 20px;
+                height: 3rem;
+                text-align:center;
+                border: none;
+                background-size: 300% 100%;
+
+                border-radius: 50px;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+
+            .btn-hover:hover {
+                background-position: 100% 0;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+
+            .btn-hover:focus {
+                outline: none;
+            }
+            
+            .btn-hover.color-11 {
+                background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+                box-shadow: 0 3px 10px rgba(242, 97, 103, .4);
+            }
+
+            .btn-hover.color-7 {
+                background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+                box-shadow: 0 3px 10px 0 rgba(126, 52, 161, 0.75);
+            }
+
+            .btn-hover.color-8 {
+                background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+                box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
+            }
+
+            .btn-hover.color-9 {
+                background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
+            }
         </style>
     
       </head>
@@ -343,84 +400,88 @@
         
         <div class="center-align">
             <img src="https://www.trekthehimalayas.com/assets/images/logo2.png" alt="" class="author_icon  responsive-img materialboxed">
-            <h4 class="author_name">Lan Belic</h4>
+            <h4 class="author_bio"> From the greenest beginner to the sharpest professional adventure travellers, we can get you where you want to go.</h4>
         </div>
         <hr>
-        <div class="article_card z-depth-1 hoverable">
-            <div class="cover_image_container">
-                <img src="images/t9-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
-            </div>
-            <div class="card_container">
-                <div class="col s12 m12 l12 container>
-                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
-                </div>
-                <div class="col s12 m12 l12 container">
-                    <div class="row ">
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+        <div class="row">
+            <div class="col s12 m8 l8 offset-l2 offset-m2">
+                <div class="article_card z-depth-1 hoverable ">
+                    <div class="cover_image_container">
+                        <img src="images/t9-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
                     </div>
-                    <div class="center-align">
-                        <a class="waves-effect waves-teal btn-small">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="article_card z-depth-1 hoverable">
-            <div class="cover_image_container">
-                <img src="images/t1-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
-            </div>
-            <div class="card_container">
-                <div class="col s12 m12 l12 container>
-                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
-                </div>
-                <div class="col s12 m12 l12 container">
-                    <div class="row ">
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
-                    </div>
-                    <div class="center-align">
-                        <a class="waves-effect waves-teal btn-small">View Details</a>
+                    <div class="card_container">
+                        <div class="container>
+                            <a href="Article2.html"><h4 class="black-text center-align">Bhrigu Lake</h4> </a>
+                        </div>
+                        <div class=" container">
+                            <div class="row ">
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                            </div>
+                            <div class=" center"><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="article_card z-depth-1 hoverable">
-            <div class="cover_image_container">
-                <img src="images/t5-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
-            </div>
-            <div class="card_container">
-                <div class="col s12 m12 l12 container>
-                    <a href="Article2.html"><h4 class="black-text center-align">Sar Pass Trek</h4> </a>
-                </div>
-                <div class="col s12 m12 l12 container">
-                    <div class="row ">
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
-                        <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+        <div class="row">
+            <div class="col s12 m8 l8 offset-m2 offset-l2">
+                <div class="article_card z-depth-1 hoverable">
+                    <div class="cover_image_container">
+                        <img src="images/t1-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
                     </div>
-                    <div class="center-align">
-                        <a class="waves-effect waves-teal btn-small">View Details</a>
+                    <div class="card_container">
+                        <div class="container>
+                            <a href="Article2.html"><h4 class="black-text center-align">Bhrigu Lake</h4> </a>
+                        </div>
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                            </div>
+                            <div class=" center"><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-            
-            
+        
 
-            
+        <div class="row">
+            <div class="col s12 m8 l8 offset-m2 offset-l2">
+                <div class="article_card z-depth-1 hoverable">
+                    <div class="cover_image_container">
+                        <img src="images/t5-cover.jpg" alt="" class="materialboxed responsive-img cover_image">
+                    </div>
+                    <div class="card_container">
+                        <div class=" container>
+                            <a href="Article2.html"><h4 class="black-text center-align">Bhrigu Lake</h4> </a>
+                        </div>
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+                                <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
+                            </div>
+                            <div class=" center"><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
             <br>
             <div class="row">
                 <h3 class="sutitle center-align">  <br>Reviews</h4>
