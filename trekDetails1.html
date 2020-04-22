@@ -261,6 +261,135 @@
                 padding-bottom: 2rem;
             }
 
+            .materialboxed{
+                margin: 0.4rem;
+            }
+
+            .smooth_edges{
+                border-radius: 0.8rem;
+            }            
+        
+            .modal { 
+                border-radius: 0.7rem;
+            } 
+
+            .btn-hover {
+                margin: 2% auto;
+                width: 15rem;
+                font-size: 1.4rem;
+                font-weight: 600;
+                color: #fff;
+                cursor: pointer;
+                margin: 20px;
+                height: 3rem;
+                text-align:center;
+                border: none;
+                background-size: 400% 100%;
+                border-radius: 50px;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+                line-height: 2.6rem;
+            }
+
+            .btn-hover:hover {
+                background-position: 100% 0;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+
+            .btn-hover:focus {
+                outline: none;
+            }
+            
+            .btn-hover.color-11 {
+                background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+                box-shadow: 0 3px 10px rgba(242, 97, 103, .4);
+            }
+
+            .btn-hover.color-4 {
+                background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+                box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+            }
+
+            .btn-hover.color-7 {
+                background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+                box-shadow: 0 3px 10px 0 rgba(126, 52, 161, 0.75);
+            }
+
+            .btn-hover.color-8 {
+                background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+                box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
+            }
+
+            .btn-hover.color-9 {
+                background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
+            }
+
+            .book-btn-hover {
+                margin: 2% auto;
+                width: 15rem;
+                font-size: 1rem;
+                font-weight: 600;
+                color: #fff;
+                cursor: pointer;
+                margin: 0;
+                height: max-content;
+                text-align:center;
+                border: none;
+                background-size: 400% 100%;
+                border-radius: 50px;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+                line-height: 4rem;
+            }
+
+            .book-btn-hover:hover {
+                background-position: 100% 0;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+
+            .book-btn-hover:focus {
+                outline: none;
+            }
+            
+            .book-btn-hover.color-11 {
+                background-image: linear-gradient(to right, #ff424b, #ff6a6f, #f53535, #f03640);  
+                box-shadow: 0 3px 10px rgba(242, 97, 103, .4);
+            }
+
+            .book-btn-hover.color-4 {
+                background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+                box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+            }
+
+            .book-btn-hover.color-7 {
+                background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+                box-shadow: 0 3px 10px 0 rgba(126, 52, 161, 0.75);
+            }
+
+            .book-btn-hover.color-8 {
+                background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+                box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
+            }
+
+            .book-btn-hover.color-9 {
+                background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
+            }
+
+            .book-btn{
+                padding: 0.7rem 2rem;
+            }
+
+            .btn_margin_top{
+                margin-top: 1.5rem;
+            }
         </style>
     
       </head>
@@ -324,8 +453,11 @@
         
         <div class="book_now">
             <div class="row">
-                <div class="col s12 m10 l10"><p class="rating"><span class="extra_large">Trek Fee : RS. 19998 </span> + GST <br> <a href="trekProviderDetails-2.html"><span class="provider-name black-text">Kailash Rath</span></a>  - Rating 4.5/5</p></div>
-                <div class="col s12 m2 l2 BN_btn center"><a href="bookingForm.html" class="waves-effect waves-light btn">Book Now</a></div>
+                <div class="col s12 m12 l12 center"><p class="rating"><span class="extra_large">Best Price : RS. 19998 </span> + GST <br> <a href="trekProviderDetails-2.html" class="center"><span class="provider-name black-text ">by Kailash Rath</span></a>  - Rating 4.5/5</p></div>
+                <div class="col  m6 l6  right-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="bookingForm.html">COMPARE </a></div>
+                <div class="col  m6 l6  left-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
+                <div class="col   s12 center show-on-small hide-on-med-and-up btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="bookingForm.html">COMPARE </a></div>
+                <div class="col  s12  center show-on-small hide-on-med-and-up "><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
             </div>
         </div>
         <hr>
@@ -334,16 +466,16 @@
             <p class="p_content">A lot of trekkers do the Bhrigu Lake trek for the lake steeped in mythology. It is, after all, known as the place where the famous saint Maharishi Bhrigu sat in deep meditation. However, we believe the lake is not the only thing the trek has to offer. You must do the Bhrigu Lake trek for its grasslands.</p>
 
             <div class="image-container">
-                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-Lake-Indiahikes-meadows-3.jpg" class="responsive-img materialboxed" >
+                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-Lake-Indiahikes-meadows-3.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed" >
             </div>
 
             <p class="p_content">To enter an alpine meadow in our country, one has to often spend at least a day or two trekking within the treeline. We are talking of two or three days of hard ascent. This is because most alpine meadows start at around 11, 000 ft, above the treeline. However, on this trek, you are in the meadows within the first 10 minutes of this trek! Imagine having meadows such as these right here in your backyard. No wonder we go gaga over landscapes are seen in places like Switzerland.</p>
             <div class="image-container">
-                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-Lake-Sandhya-UC-Indiahikes-2-1.jpg" class="responsive-img materialboxed" >
+                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-Lake-Sandhya-UC-Indiahikes-2-1.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed" >
             </div>
             <p class="p_content">The meadows on Bhrigu lake trek stretch far and wide – almost like an endless carpet.  Wild horses gallop around you. The grazing sheep look up when you come out of the treeline, almost as if to greet you. From these grassy knolls, you will see the mountains of Pir Panjal and Dhauladhar dominating the skyline. This is your garden in the sky. In the months of July to September, you’ll see the meadows at their lushest green. You’ll spot wildflowers everywhere.</p>
             <div class="image-container">
-                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-lake-Indiahikes-meadows-1.jpg" class="responsive-img materialboxed" >
+                <img src="https://indiahikes.com/wp-content/uploads/2016/06/Bhrigu-lake-Indiahikes-meadows-1.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed" >
             </div>
             <p class="p_content">The meadows change texture, shape and colour but stay with you all along the trek – right until Bhrigu lake. This is what makes the trek special. Getting a chance to be in such alpine meadows all along a trek is a rare opportunity.</p>
             <p class="p_content">This four-day trek gives you a good idea of what Himalayan treks offer – meadows, glacial lake, mountain views. Even though it is a short trek, it climbs to the daunting altitude of 14,000 ft. so you experience the thrill of a climb as well.  With its easy access from Manali, it is a great trek to do for beginners or families looking to explore the wilderness</p>
@@ -351,12 +483,12 @@
             <h4 class="subtitle">A Snow Experience in June</h4>
             <p class="p_content">One of the things trekkers love the most about this trek is that its completely covered in snow in the month of June, making for a wonderful alpine experience! The grasslands turn into vast snowfields and the Bhrigu Lake becomes a magnificent frozen lake. It’s a sight to see.</p>
             <div class="image-container">
-                <img src="https://indiahikes.com/wp-content/uploads/2019/05/Bhrigu-Lake-Trek-Trekking-in-Manali-Atul-Indiahikes-5.jpg" class="responsive-img materialboxed"  data-caption="The snow-covered meadows of Bhrigu Lake in June. Picture by Atul Sharma">
+                <img src="https://indiahikes.com/wp-content/uploads/2019/05/Bhrigu-Lake-Trek-Trekking-in-Manali-Atul-Indiahikes-5.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed"  data-caption="The snow-covered meadows of Bhrigu Lake in June. Picture by Atul Sharma">
             </div>
             <h4 class="subtitle">Rewarding Climb To The Lake</h4>
             <p class="p_content">The Bhrigu lake rests between two high altitude ridges. Given its location, the lake takes on several forms, changing with every season. You never know what to expect. Sometimes it is royal blue, sometimes it is emerald green, sometimes it has chunks of ice floating on its light blue surface, and sometimes it is completely frozen. Early in the season, it surrounded by snow. After the monsoon season, you will see fresh grass and alpine flowers surrounding the lake. Just to see many forms this lake would take, it is worth doing the trek many times over.</p>
             <div class="image-container">
-                <img src="https://indiahikes.com/wp-content/uploads/2018/07/Bhrigu-Lake-e1561791725150.jpg" class="responsive-img materialboxed" >
+                <img src="https://indiahikes.com/wp-content/uploads/2018/07/Bhrigu-Lake-e1561791725150.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed" >
             </div>
             <h4 class="subtitle">Views of Manali’s Biggest Mountains</h4>
             <p class="p_content">Right when you step onto meadows, you are greeted with views of major peaks of Manali. You see  Ladakhi, Shitidhar and Hanuman Tibba when you are walking on the grasslands. And, on the tabletop that is Bhrigu Lake, you will see Indrasen and Deo Tibba as well. However,  since the large chunk of the trekking season of Bhrigu Lake is during monsoon, you see the mountain ranges of Dhauladhar and Pir Panjal only during bouts of clear weather.</p>
@@ -373,18 +505,16 @@
             <p class="p_content_italic">If you wish to offload your backpack, make sure you pay for it online before starting from your home town. Offline backpack offloading is available from the base camp, however we do not recommending doing as we might be unable to arrange for it at the last moment.</p>
              <!-- Modal Trigger -->
              <div class="row">
-                 <div class="col s12 m4 l4 center margin_top">
-                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">What To Take</a>
+                 <div class="col s12  center margin_top">
+                    <a class=" btn-hover color-9 book-btn modal-trigger" href="#modal1">What To Take</a>
                  </div>
-                 <div class="col s12 m4 l4 center margin_top">
-                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Fitness Requirements</a>
+                 <div class="col s12  center margin_top">
+                    <a class="btn-hover color-11 book-btn modal-trigger" href="#modal2">Fitness Requirements</a>
                  </div>
-                 <div class="col s12 m4 l4 center margin_top">
-                    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Trek Inclusions</a>
+                 <div class="col s12  center margin_top">
+                    <a class=" btn-hover color-9 book-btn modal-trigger" href="#modal3">Trek Inclusions</a>
                  </div>
              </div>
-            
-            
             
 
             <!-- Modal Structure -->
@@ -419,7 +549,7 @@
                 <p class="content">7. Trekking pole</p> 
                 </div>
                 <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class="modal-close  btn-flat">Close</a>
                 </div>
             </div>
 
@@ -436,13 +566,13 @@
                 <p class="content">4. If you are somebody who prefers cycling over running, your target must be to cover 22 km in 60 minutes.</p> 
                 <h5>Here is a guide to help you get fit for the Bhrigu Lake trek (or any other moderate treks we run)</h5>
                 <div class="image-container">
-                    <img src="https://indiahikes.com/wp-content/uploads/2017/02/trek-fitness-indiahikes-moderate-treks.jpg" class="responsive-img materialboxed"  data-caption="The snow-covered meadows of Bhrigu Lake in June. Picture by Atul Sharma">
+                    <img src="https://indiahikes.com/wp-content/uploads/2017/02/trek-fitness-indiahikes-moderate-treks.jpg" class="z-depth-1 smooth_edges responsive-img materialboxed"  data-caption="The snow-covered meadows of Bhrigu Lake in June. Picture by Atul Sharma">
                 </div>
                 <h5>Working out indoors</h5>
                 <p class="content">If you can’t go out and jog because of time and space constraints.</p>
                 </div>
                 <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class="modal-close  btn-flat">Close</a>
                 </div>
             </div>
 
@@ -462,7 +592,7 @@
                 <p class="contnent"><span class="bold">4. Anything apart from inclusions</span></p>
                 </div>
                 <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat ">Close</a>
+                <a href="#!" class="modal-close btn-flat ">Close</a>
                 </div>
             </div>
 
@@ -498,13 +628,13 @@
 
             <div id="modal4" class="modal">
                 <div class="modal-content">
-                <h4>Reviews </h4>
+                <h4 class="center">Reviews </h4>
                 <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
                         <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"></a><br> <span class="text-info truncate">November 2, Batch of September 2018</span></p> 
                 <p class="content">Bhrigu lake trek couldn't have been more beautiful than what I experienced. It felt so beautiful being there in the mountains with cool winds blowing all the way. My first trek ever and I will remember it forever. No matter how much I describe it won't suffice in appreciating the beauty of the place. A major credit goes to Indiahikes of course for making it possible for me. I felt safe throughout the trek in spite of being the only girl.I experienced. It felt so beautiful being there in the mountains with cool winds blowing all the way. My first trek ever and I will remember it forever. No matter how much I describe it won't suffice in appreciating the beauty of the place. A major credit goes to Indiahikes of course for making it possible for me. I felt safe throughout the trek in spite of being the only girl. </p>
                 </div>
                 <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat ">Close</a>
+                <a href="#!" class="modal-close btn-flat ">Close</a>
                 </div>
             </div>
         
