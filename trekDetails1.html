@@ -210,8 +210,13 @@
 
             .carousel{
                 margin: 3% 0 3% 0;
+                height: 420px;
+                border-radius: 1rem;
             }
 
+            .carousel-item{
+                height: 100%;
+            }
             .spec{
                 padding: 0;
                 margin: -2%;
@@ -228,10 +233,6 @@
                 margin-top: 1.8rem;
             }
 
-            .carousel-item{
-                height: 50%;
-            }
-
             .rating{
                 font-size: 1.2rem;
                 margin-bottom: -0.4rem;
@@ -239,10 +240,6 @@
 
             .margin_top{
                 margin-top: 2rem;
-            }
-
-            .carousel-item.active{
-                height: min-content;
             }
 
             .big_margin_top{
@@ -263,6 +260,7 @@
             .days,.altitude{
                 padding-bottom: 2rem;
             }
+
         </style>
     
       </head>
@@ -295,21 +293,33 @@
             <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
         </div>
         
-        <div class="carousel carousel-slider carousel_height">
-            <div class="carousel-item" ><img src="images/t1.jpg" class="responsive-img materialboxed"></div>
-            <div class="carousel-item" ><img src="images/t5.jpg" class="responsive-img materialboxed"></div>
-            <div class="carousel-item" ><img src="images/t3.jpg" class="responsive-img materialboxed"></div>
-            <div class="carousel-item" ><img src="images/t4.jpg" class="responsive-img materialboxed"></div>
+        <div class="row">
+            <div class="col s12 m12 l10 offset-l1 hide-on-small-only ">
+                <div class="carousel carousel-slider carousel_height z-depth-2">
+                    <div class="carousel-item" ><img src="images/t1.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t2.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t4.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t5.jpg" class="responsive-img "></div>
+                </div>
+            </div>
+            <div class="col s12 m12 l10 offset-l1 show-on-small hide-on-med-and-up">
+                <div class="carousel carousel-slider carousel_height z-depth-2">
+                    <div class="carousel-item" ><img src="images/t1-p.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t2-p.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t4-p.jpg" class="responsive-img "></div>
+                    <div class="carousel-item" ><img src="images/t5-p.jpg" class="responsive-img "></div>
+                </div>
+            </div>
         </div>
 
         <h3 class="center">Bhrigu Lake</h3>
-        <div class="row">
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Difficulty : Moderate</p></div>
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Duration : 4 days</p></div>
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Altitude : 14000ft</p></div>
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Minimum Age : 8 years</p></div>
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Base Camp : Manali</p></div>
-            <div class="col s12 m6 l4"><p class="spec"><span class="bullet">.</span>Best Time To Visit : June-Sept</p></div>
+        <div class="row ">
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">change_history</i><span class="days truncate">12,171ft</span></p></div>
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">alarm</i><span class="days truncate"> 5 D / 4 N</span></p></div>
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">accessibility_new</i><span class="days truncate">14yrs and above</span></p></div>
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">calendar_today</i><span class="days truncate">April to June</span></p></div>
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">input</i><span class="days truncate">Group of 30</span></p></div>
+            <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
         </div>
         
         <div class="book_now">
