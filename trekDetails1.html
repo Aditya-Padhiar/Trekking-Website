@@ -390,6 +390,39 @@
             .btn_margin_top{
                 margin-top: 1.5rem;
             }
+
+            #modal6{
+                border-radius: 1.4rem 1.4rem 0 0 ;
+            }
+
+            .bottom-sheet{
+                max-height: 100% !important;
+                top: 35vh !important;
+            }
+
+            .selected{
+                background-color: darkgrey;
+                color: black;
+                border-radius: 2rem;
+                padding: 0.2rem 1.2rem;
+            }
+
+            .select{
+                color: darkgrey;
+                background-color: white;
+                border-radius: 2rem;
+                padding: 0.2rem 1.2rem;
+                border: darkgrey solid 1px;
+            }
+
+            .operator{
+                line-height: 2.6rem;
+            }
+
+            .bs-provider{
+                font-size: 1.4rem;
+                font-weight: 550;
+            }
         </style>
     
       </head>
@@ -451,12 +484,143 @@
             <div class="col s6 m4 l4"><p class=" center-align"><i class="material-icons margin_bottom">gavel</i><span class="days truncate">Moderate</span></p></div>
         </div>
         
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+            <h4 class="center">Compare Operators</h4>
+            <table class="center">
+                <tbody>
+                  <tr>
+                    <td class="center"></td>
+                    <td class="center"><a href="trekProviderDetails-2.html" ><span class="provider-name black-text">Kailash Rath</span></a></td>
+                    <td class="center"><a href="trekProviderDetails-1.html"><span class="provider-name black-text ">Bikat Adventures</span></a></td>
+                    <td class="center"><a href="trekProviderDetails-3.html" ><span class="provider-name black-text ">Trek The Himalayas</span></a></td>
+                  </tr>
+                  <tr>
+                    <td class="center">Price</td>
+                    <td class="center">RS. 19,998 + GST</td>
+                    <td class="center">RS. 22,499 + GST</td>
+                    <td class="center">RS. 21,000 + GST</td>
+                  </tr>
+                  <tr>
+                    <td class="center">Rating </td>
+                    <td class="center">4.5/5</td>
+                    <td class="center">4.7/5</td>
+                    <td class="center">4.4/5</td>
+                  </tr>
+                  <tr>
+                    <td class="center">Route </td>
+                    <td class="center">via xyz</td>
+                    <td class="center">via abc</td>
+                    <td class="center">via pqr</td>
+                  </tr>
+                  <tr>
+                    <td class="center">Days </td>
+                    <td class="center">5D/4N</td>
+                    <td class="center">5D/4N</td>
+                    <td class="center">4D/3N</td>
+                  </tr>
+                  <tr>
+                    <td class="center"> </td>
+                    <td class="center"><a href="#" class="selected ">Selected</a></td>
+                    <td class="center"><a href="#" class="select ">Select</a></td>
+                    <td class="center"><a href="#" class="select ">Select</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-close  btn-flat">Close</a>
+            </div>
+        </div>
+
+        <div id="modal6" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4 class="center">Compare Operator</h4>
+              <form action="#">
+                    <div class="row valign-wrapper">
+                        <div class="col s1">
+                            <p>
+                                <label>
+                                <input name="group1" type="radio" checked />
+                                <span>
+                                    
+                                </span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s11">
+                            <div class="operator">
+                                <div class="row">
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-2.html" ><span class=" black-text bs-provider">Kailash Rath</span></a>  - Rating 4.5/5</p></div>
+                                    <div class="col s6 right-align">5D/4N</div>
+                                    <div class="col s6 left-align">via xyz</div>
+                                    <div class="col s12 center"> RS. 19,998 + GST</div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row valign-wrapper">
+                        <div class="col s1">
+                            <p>
+                                <label>
+                                <input name="group1" type="radio" />
+                                <span>
+                                    
+                                </span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s11 ">
+                            <div class="operator">
+                                <div class="row">
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-1.html" ><span class=" black-text bs-provider">Bikat Adventures</span></a>  - Rating 4.7/5</p></div>
+                                    <div class="col s6 right-align ">5D/4N</div>
+                                    <div class="col s6 left-align ">via xyz</div>
+                                    <div class="col s12 center"> RS. 22,499 + GST</div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row valign-wrapper">
+                        <div class="col s1">
+                            <p>
+                                <label>
+                                <input name="group1" type="radio" />
+                                <span>
+                                    
+                                </span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s11">
+                            <div class="operator">
+                                <div class="row">
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-3.html" ><span class=" black-text bs-provider">Trek The Himalayas</span></a>  - Rating 4.4/5</p></div>
+                                    <div class="col s6 right-align">5D/4N</div>
+                                    <div class="col s6 left-align">via abc</div>
+                                    <div class="col s12 center"> RS. 21,000 + GST</div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+              </form>
+            </div>
+
+            <div class="modal-footer">
+              <a href="#!" class="modal-close btn-flat">Close</a>
+            </div>
+        </div>
+                
+
         <div class="book_now">
             <div class="row">
                 <div class="col s12 m12 l12 center"><p class="rating"><span class="extra_large">Best Price : RS. 19998 </span> + GST <br> <a href="trekProviderDetails-2.html" class="center"><span class="provider-name black-text ">by Kailash Rath</span></a>  - Rating 4.5/5</p></div>
-                <div class="col  m6 l6  right-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="bookingForm.html">COMPARE </a></div>
+                <div class="col  m6 l6  right-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="#modal5">COMPARE </a></div>
                 <div class="col  m6 l6  left-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
-                <div class="col   s12 center show-on-small hide-on-med-and-up btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="bookingForm.html">COMPARE </a></div>
+                <div class="col   s12 center show-on-small hide-on-med-and-up btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="#modal6">COMPARE </a></div>
                 <div class="col  s12  center show-on-small hide-on-med-and-up "><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
             </div>
         </div>
@@ -506,13 +670,13 @@
              <!-- Modal Trigger -->
              <div class="row">
                  <div class="col s12  center margin_top">
-                    <a class=" btn-hover color-9 book-btn modal-trigger" href="#modal1">What To Take</a>
+                    <a class=" btn-hover color-8 book-btn modal-trigger" href="#modal1">What To Take</a>
                  </div>
                  <div class="col s12  center margin_top">
-                    <a class="btn-hover color-11 book-btn modal-trigger" href="#modal2">Fitness Requirements</a>
+                    <a class="btn-hover color-7 book-btn modal-trigger" href="#modal2">Fitness Requirements</a>
                  </div>
                  <div class="col s12  center margin_top">
-                    <a class=" btn-hover color-9 book-btn modal-trigger" href="#modal3">Trek Inclusions</a>
+                    <a class=" btn-hover color-8 book-btn modal-trigger" href="#modal3">Trek Inclusions</a>
                  </div>
              </div>
             
