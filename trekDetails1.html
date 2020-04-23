@@ -257,10 +257,6 @@
                 margin-top: 1rem;
             }
 
-            .days,.altitude{
-                padding-bottom: 2rem;
-            }
-
             .materialboxed{
                 margin: 0.4rem;
             }
@@ -274,14 +270,14 @@
             } 
 
             .btn-hover {
-                margin: 2% auto;
-                width: 15rem;
-                font-size: 1.4rem;
+                margin-top:  1rem;
+                padding: 1.2rem 0;
+                width: 10rem;
+                font-size: 1.1rem;
                 font-weight: 600;
                 color: #fff;
                 cursor: pointer;
-                margin: 20px;
-                height: 3rem;
+                height: 2.4rem;
                 text-align:center;
                 border: none;
                 background-size: 400% 100%;
@@ -289,7 +285,6 @@
                 -o-transition: all .4s ease-in-out;
                 -webkit-transition: all .4s ease-in-out;
                 transition: all .4s ease-in-out;
-                line-height: 2.6rem;
             }
 
             .btn-hover:hover {
@@ -328,7 +323,7 @@
                 box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
             }
 
-            .book-btn-hover {
+            .cb-btn-hover {
                 margin: 2% auto;
                 width: 15rem;
                 font-size: 1rem;
@@ -347,46 +342,109 @@
                 line-height: 4rem;
             }
 
-            .book-btn-hover:hover {
+            .cb-btn-hover:hover {
                 background-position: 100% 0;
                 -o-transition: all .4s ease-in-out;
                 -webkit-transition: all .4s ease-in-out;
                 transition: all .4s ease-in-out;
             }
 
-            .book-btn-hover:focus {
+            .cb-btn-hover:focus {
                 outline: none;
             }
             
-            .book-btn-hover.color-11 {
+            .cb-btn-hover.color-11 {
                 background-image: linear-gradient(to right, #ff424b, #ff6a6f, #f53535, #f03640);  
                 box-shadow: 0 3px 10px rgba(242, 97, 103, .4);
             }
 
-            .book-btn-hover.color-4 {
+            .cb-btn-hover.color-4 {
                 background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
                 box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
             }
 
-            .book-btn-hover.color-7 {
+            .cb-btn-hover.color-7 {
                 background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
                 box-shadow: 0 3px 10px 0 rgba(126, 52, 161, 0.75);
             }
 
-            .book-btn-hover.color-8 {
+            .cb-btn-hover.color-8 {
                 background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
                 box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
             }
 
-            .book-btn-hover.color-9 {
+            .cb-btn-hover.color-9 {
+                background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
+            }
+
+            .modal-btn-hover {
+                margin: 2% auto;
+                width: 20%;
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: #fff;
+                cursor: pointer;
+                margin: 0;
+                height: max-content;
+                text-align:center;
+                border: none;
+                background-size: 400% 100%;
+                border-radius: 50px;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+                line-height: 2rem;
+            }
+
+            .modal-btn-hover:hover {
+                background-position: 100% 0;
+                -o-transition: all .4s ease-in-out;
+                -webkit-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+
+            .modal-btn-hover:focus {
+                outline: none;
+            }
+            
+            .modal-btn-hover.color-11 {
+                background-image: linear-gradient(to right, #ff424b, #ff6a6f, #f53535, #f03640);  
+                box-shadow: 0 3px 10px rgba(242, 97, 103, .4);
+            }
+
+            .modal-btn-hover.color-4 {
+                background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+                box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+            }
+
+            .modal-btn-hover.color-7 {
+                background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+                box-shadow: 0 3px 10px 0 rgba(126, 52, 161, 0.75);
+            }
+
+            .modal-btn-hover.color-8 {
+                background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+                box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
+            }
+
+            .modal-btn-hover.color-9 {
                 background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
                 box-shadow: 0 3px 10px 0 rgba(65, 132, 234, 0.75);
             }
 
             .book-btn{
                 padding: 0.7rem 2rem;
+                margin: 1rem 0 0rem 0;
             }
 
+            .cb-btn{
+                padding: 0.7rem 2rem;
+            }
+
+            .modal-btn{
+                padding: 0.7rem 2rem;
+            }
             .btn_margin_top{
                 margin-top: 1.5rem;
             }
@@ -397,7 +455,7 @@
 
             .bottom-sheet{
                 max-height: 100% !important;
-                top: 35vh !important;
+                top: 38vh !important;
             }
 
             .selected{
@@ -420,8 +478,90 @@
             }
 
             .bs-provider{
-                font-size: 1.4rem;
-                font-weight: 550;
+                font-size: 1.6rem;
+                font-weight: 580;
+            }
+
+            .rating-icon{
+                
+                margin: 5px 0px -2px 8px;
+                height: 20px;
+                width: 20px;
+            }
+
+            .bolder{
+                font-weight: 520;
+            }
+
+            .smooth_edges{
+                border-radius: 0.8rem;
+            }
+
+            .card_image_container{
+                height: auto;
+                width: 100%;
+            }
+
+            .trek_card_layout_container{
+                margin: 0;
+                padding: 1rem 0 5% 0;
+                background-color: rgb(235, 235, 235);
+            }
+
+            .trek_card_lifted_container{
+                width: 90%;
+                border: lightgrey 1px solid;
+                border-radius: 1rem;
+                margin: 1.8rem 5% 0 5% ;
+                padding: 1.5% 1.5% 0.5% 1.5%;
+                background-color: #fff;
+            }
+            
+            .trek_card{
+                margin: 3% 2%;
+                border: lightgrey solid 1px;
+                border-radius: 0.8rem;
+            }
+
+            .card_image_container{
+                border-radius: 0.8rem ;
+            }
+
+            .info_container{
+                padding: 1rem 1.2rem;
+            }
+
+            .card_header{
+                font-size: 2rem;
+            }
+
+            .book-btn{
+                padding: 0.4rem;
+            }
+
+            .small_icon{
+                margin-top: 0.3rem;
+                font-size: 1.2rem;
+            }
+
+            .text-small{
+                font-size: 0.8rem;
+            }
+
+            .tp{
+                margin-bottom: 0rem;
+            }
+
+            .card_p{
+                margin-top: 0rem;
+            }
+
+            .margin-top-zero{
+                margin-top: 0;
+            }
+
+            .card_h5{
+                font-size: 2rem;
             }
         </style>
     
@@ -551,10 +691,10 @@
                         <div class="col s11">
                             <div class="operator">
                                 <div class="row">
-                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-2.html" ><span class=" black-text bs-provider">Kailash Rath</span></a>  - Rating 4.5/5</p></div>
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-2.html" ><span class=" black-text bs-provider">Kailash Rath</span></a>  <img src="images/rating.png" class="rating-icon" alt=""> 4.5/5</p></div>
                                     <div class="col s6 right-align">5D/4N</div>
                                     <div class="col s6 left-align">via xyz</div>
-                                    <div class="col s12 center"> RS. 19,998 + GST</div>
+                                    <div class="col s12 center bolder"> RS. 19,998 + GST</div>
                                 </div>
                         </div>
                         </div>
@@ -574,10 +714,10 @@
                         <div class="col s11 ">
                             <div class="operator">
                                 <div class="row">
-                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-1.html" ><span class=" black-text bs-provider">Bikat Adventures</span></a>  - Rating 4.7/5</p></div>
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-1.html" ><span class=" black-text bs-provider">Bikat Adventures</span></a> <img src="images/rating.png" class="rating-icon" alt=""> 4.7/5</p></div>
                                     <div class="col s6 right-align ">5D/4N</div>
                                     <div class="col s6 left-align ">via xyz</div>
-                                    <div class="col s12 center"> RS. 22,499 + GST</div>
+                                    <div class="col s12 center bolder"> RS. 22,499 + GST</div>
                                 </div>
                         </div>
                         </div>
@@ -598,10 +738,10 @@
                         <div class="col s11">
                             <div class="operator">
                                 <div class="row">
-                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-3.html" ><span class=" black-text bs-provider">Trek The Himalayas</span></a>  - Rating 4.4/5</p></div>
+                                    <div class="col s12 center"><p class="rating"><a href="trekProviderDetails-3.html" ><span class=" black-text bs-provider">Trek The Himalayas</span></a>  <img src="images/rating.png" class="rating-icon" alt=""> 4.4/5</p></div>
                                     <div class="col s6 right-align">5D/4N</div>
                                     <div class="col s6 left-align">via abc</div>
-                                    <div class="col s12 center"> RS. 21,000 + GST</div>
+                                    <div class="col s12 center bolder"> RS. 21,000 + GST</div>
                                 </div>
                         </div>
                         </div>
@@ -618,10 +758,10 @@
         <div class="book_now">
             <div class="row">
                 <div class="col s12 m12 l12 center"><p class="rating"><span class="extra_large">Best Price : RS. 19998 </span> + GST <br> <a href="trekProviderDetails-2.html" class="center"><span class="provider-name black-text ">by Kailash Rath</span></a>  - Rating 4.5/5</p></div>
-                <div class="col  m6 l6  right-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="#modal5">COMPARE </a></div>
-                <div class="col  m6 l6  left-align hide-on-small-only btn_margin_top"><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
-                <div class="col   s12 center show-on-small hide-on-med-and-up btn_margin_top"><a class="book-btn-hover color-7 book-btn modal-trigger" href="#modal6">COMPARE </a></div>
-                <div class="col  s12  center show-on-small hide-on-med-and-up "><a class="book-btn-hover color-11 book-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
+                <div class="col  m6 l6  right-align hide-on-small-only btn_margin_top"><a class="cb-btn-hover color-7 cb-btn modal-trigger" href="#modal5">COMPARE </a></div>
+                <div class="col  m6 l6  left-align hide-on-small-only btn_margin_top"><a class="cb-btn-hover color-11 cb-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
+                <div class="col   s12 center show-on-small hide-on-med-and-up btn_margin_top"><a class="cb-btn-hover color-7 cb-btn modal-trigger" href="#modal6">COMPARE </a></div>
+                <div class="col  s12  center show-on-small hide-on-med-and-up "><a class="cb-btn-hover color-11 cb-btn modal-trigger" href="bookingForm.html">BOOK NOW</a></div>
             </div>
         </div>
         <hr>
@@ -670,13 +810,13 @@
              <!-- Modal Trigger -->
              <div class="row">
                  <div class="col s12  center margin_top">
-                    <a class=" btn-hover color-8 book-btn modal-trigger" href="#modal1">What To Take</a>
+                    <a class=" modal-btn-hover color-8 modal-btn modal-trigger" href="#modal1">What To Take</a>
                  </div>
                  <div class="col s12  center margin_top">
-                    <a class="btn-hover color-7 book-btn modal-trigger" href="#modal2">Fitness Requirements</a>
+                    <a class="modal-btn-hover color-7 modal-btn modal-trigger" href="#modal2">Fitness Requirements</a>
                  </div>
                  <div class="col s12  center margin_top">
-                    <a class=" btn-hover color-8 book-btn modal-trigger" href="#modal3">Trek Inclusions</a>
+                    <a class=" modal-btn-hover color-8 modal-btn modal-trigger" href="#modal3">Trek Inclusions</a>
                  </div>
              </div>
             
@@ -805,87 +945,71 @@
         </div>
     </div>
         
-    <div class="more_content grey lighten-5">
-        <div class="container">
-            <h5 class="h5_content"><br>More Treks For You</h5><hr class="top-bottom_margin">
-            <div class="row more_content_cards_row">
     
-                <div class="col s12 m12 l4 more_content_cards_col ">
+
+    <div class="trek_card_layout_container">
+        <div class="row">
+            <div class="col s12 l12 m10 offset-m1">
+                <h5 class="center margin_top_zero card_h5">More Treks For You.....</h5>
+                <div class="trek_card_lifted_container z-depth-3 ">
                     <div class="row">
-                        <div class="col s12 m8 l12 offset-m2">
-                            <a href="Article2.html"><img src="images/t9.jpg" alt="" class="more_content_image_container "></a>
-                        </div>
-    
-                        <div class="col s12 m12 l12 info">
-                            <a href="Article2.html"><h5 class="black-text">Sar Pass Trek <span class="small_text grey-text text-darken-1"> -  Moderate</span></h5> </a>
-                            <a href="trekProviderDetails-1.html">Bikat Adventures</a>
-                        </div>
-                        <div class="col s12 m12 l12">
-                            <div class="row">
-                                <div class="col s6 m6 l6"><p><i class="material-icons lowdown">change_history</i><span class="altitude">12,171ft</span></p></div>
-                                <div class="col s6 m6 l6"><p class="center-align"><i class="material-icons lowdown">calendar_today</i><span class="days"> 5 days</span></p></div>
+                        <div class="col s12 m10 offset-m1 l4 ">
+                            <div class="trek_card z-depth-1 hoverable">
+                                <img src="images/t6-wide.jpg" alt="" class="card_image_container z-depth-1">
+                                <div class="row info_container">
+                                    <div class="col s12 m12 l12 info center">
+                                        <a href="cardDetails.html"><h5 class=" black-text tp"> Kedartal Trek <span class="small_text grey-text text-darken-1"> - Difficult</span></h5></a>
+                                        <a href="trekProviderDetails-3.html" class=" black-text ">Trek The Himalayas</a>
+                                    </div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">change_history</i><span class="days truncate text-small">12,171ft</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">alarm</i><span class="days truncate text-small"> 5 D / 4 N</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">accessibility_new</i><span class="days truncate text-small">14yrs and above</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">calendar_today</i><span class="days truncate text-small">April to June</span></p></div>
+                                    <div class="col s12 m12 l12"><p class="card_p center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod possimus voluptatibus ducimus at, odio nobis.</p></div>
+                                    <div class=" col s12 m12 l12 center "><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                                </div>
                             </div>
-                            <div class="center-align">
-                                <a class="waves-effect waves-teal btn-small">View Details</a>
+                        </div>
+
+                        <div class="col s12 m10 offset-m1 l4 ">
+                            <div class="trek_card z-depth-1 hoverable">
+                                <img src="images/t2-wide.jpg" alt="" class="card_image_container z-depth-1">
+                                <div class="row info_container">
+                                    <div class="col s12 m12 l12 info center">
+                                        <a href="cardDetails.html"><h5 class=" black-text tp"> Bhrigu Lake <span class="small_text grey-text text-darken-1"> - Difficult</span></h5></a>
+                                        <a href="trekProviderDetails-1.html" class=" black-text ">Bikat Adventures</a>
+                                    </div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">change_history</i><span class="days truncate text-small">12,171ft</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">alarm</i><span class="days truncate text-small"> 5 D / 4 N</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">accessibility_new</i><span class="days truncate text-small">14yrs and above</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">calendar_today</i><span class="days truncate text-small">April to June</span></p></div>
+                                    <div class="col s12 m12 l12"><p class="card_p center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod possimus voluptatibus ducimus at, odio nobis.</p></div>
+                                    <div class=" col s12 m12 l12 center "><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m10 offset-m1 l4 ">
+                            <div class="trek_card z-depth-1 hoverable">
+                                <img src="images/t3-wide.jpg" alt="" class="card_image_container z-depth-1">
+                                <div class="row info_container">
+                                    <div class="col s12 m12 l12 info center">
+                                        <a href="cardDetails.html"><h5 class=" black-text tp"> Saar Pass <span class="small_text grey-text text-darken-1"> - Moderate</span></h5></a>
+                                        <a href="trekProviderDetails-2.html" class=" black-text ">Kailash Rath</a>
+                                    </div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">change_history</i><span class="days truncate text-small">12,171ft</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">alarm</i><span class="days truncate text-small"> 5 D / 4 N</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">accessibility_new</i><span class="days truncate text-small">14yrs and above</span></p></div>
+                                    <div class="col s3 m3 l3"><p class=" center-align"><i class="material-icons margin_bottom small_icon">calendar_today</i><span class="days truncate text-small">April to June</span></p></div>
+                                    <div class="col s12 m12 l12"><p class="card_p center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod possimus voluptatibus ducimus at, odio nobis.</p></div>
+                                    <div class=" col s12 m12 l12 center "><a href="trekDetails1.html" class="btn-hover color-9 book-btn" type="submit" >BOOK NOW</a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <hr>
                 </div>
-                 
-    
-                <div class="col s12 m12 l4 more_content_cards_col ">
-                    <div class="row">
-                        <div class="col s12 m8 l12 offset-m2">
-                            <a href="Article2.html"><img src="images/t5.jpg" alt="" class="more_content_image_container "></a>
-                        </div>
-    
-                        <div class="col s12 m12 l12 info">
-                            <a href="cardDetails.html"><h5 class=" black-text">Kedartal Trek <span class="small_text grey-text text-darken-1"> - Difficult</span></h5></a>
-                            <a href="trekProviderDetails-3.html">Trek The Himalayas</a>
-                        </div>
-                        <div class="col s12 m12 l12">
-                            <div class="row">
-                                <div class="col s6 m6 l6"><p> <i class="material-icons lowdown">change_history</i><span class="altitude">12,171ft</span></p></div>
-                                <div class="col s6 m6 l6"><p class="center-align"><i class="material-icons lowdown">calendar_today</i><span class="days "> 5 days</span></p></div>
-                            </div>
-                            <div class="center-align">
-                                <a class="waves-effect waves-teal btn-small">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-    
-    
-                <div class="col s12 m12 l4 more_content_cards_col ">
-                    <div class="row">
-                        <div class="col s12 m8 l12 offset-m2">
-                            <a href="Article2.html"><img src="images/t6.jpg" alt="" class="more_content_image_container "></a>
-                        </div>
-    
-                        <div class="col s12 m12 l12">
-                            <a href="Article4.html"><h5 class=" black-text">Kauri Pass Trek <span class="small_text grey-text text-darken-1"> - Difficult</span></h5></a>
-                            <a href="trekProviderDetails-2.html">Kailash Rath</a>
-                        </div>
-                        <div class="col s12 m12 l12">
-                            <div class="row">
-                                <div class="col s6 m6 l6"><p><i class="material-icons lowdown">change_history</i><span class="altitude">12,171ft</span></p></div>
-                                <div class="col s6 m6 l6"><p class="center-align"><i class="material-icons lowdown">calendar_today</i><span class="days ">5 days</span></p></div>
-                            </div>
-                            <div class="center-align">
-                                <a class="waves-effect waves-teal btn-small">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-    
             </div>
         </div>
-    </div>
-        
-
     </div>
 
     <footer class="page-footer black lighten-2 footer">
