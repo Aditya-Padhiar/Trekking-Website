@@ -589,13 +589,23 @@
 
             .sidenav_svg{
                 width: 80%;
-                margin: 65% 10% 0 10%; 
+                margin: 15rem 10% 0 10%; 
             }
 
             .sidenav_quote{
                 color: rgb(70, 152, 252);
                 margin-top: 0;
                 font-family: sans-serif;
+            }
+
+            .sidenav-selected{
+                background-image: linear-gradient(to right, #485563, #162129);
+                border: 0px;
+            }
+
+            .half_rounded_border:hover{
+                
+                background-image: linear-gradient(to right, #4855632f, #1621292d);
             }
         </style>
     
@@ -625,8 +635,10 @@
                 <li class="half_rounded_border"><a href="blogs.html" class="black-text">Blogs</a></li>
                 <li class="half_rounded_border"><a href="FAQ.html" class="black-text">FAQs</a></li>
                 <li class="half_rounded_border"><a href="aboutUs.html" class="black-text">About Us</a></li>
-                <img src="images/sidenav.svg" class="sidenav_svg" alt="">
-                <p class="sidenav_quote center">Escape the ordinary</p>
+                <div class="svg-content show-on-small hide-on-med-and-up">
+                    <img src="images/sidenav.svg" class="sidenav_svg" alt="">
+                    <p class="sidenav_quote center">Escape the ordinary</p>
+                </div>
             </ul>
         </div>
     </nav>

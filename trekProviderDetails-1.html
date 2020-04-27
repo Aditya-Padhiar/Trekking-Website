@@ -478,6 +478,49 @@
             .info_container{
                 padding: 1rem 1.2rem;
             }
+
+            .mob-nav-brand{
+                margin-top: 0rem;
+                line-height: 0;
+            }
+
+            .logo_font_sidenav{
+                margin-bottom: 2rem;
+                margin-left: 15px;
+                font-size: 1.8rem;
+                font-family: baskerville old face;
+            }
+
+            .sidenav_branding{
+                margin:2rem 0 5rem 0;
+            }
+
+            .half_rounded_border{
+                margin: 0.2rem 0.4rem 0.2rem -0.1rem;
+                border: lightgrey 1px solid;
+                border-radius: 0 2rem 2rem 0;
+            }
+
+            .sidenav_svg{
+                width: 80%;
+                margin: 15rem 10% 0 10%; 
+            }
+
+            .sidenav_quote{
+                color: rgb(70, 152, 252);
+                margin-top: 0;
+                font-family: sans-serif;
+            }
+
+            .sidenav-selected{
+                background-image: linear-gradient(to right, #485563, #162129);
+                border: 0px;
+            }
+
+            .half_rounded_border:hover{
+                
+                background-image: linear-gradient(to right, #4855632f, #1621292d);
+            }
         </style>
     
       </head>
@@ -498,10 +541,18 @@
               </li>
             </ul>
             <ul class="sidenav" id="mobile-links">
-                <li><a href="trending.html" class="black-text">Trending</a></li>
-                <li><a href="blogs.html" class="black-text">Blogs</a></li>
-                <li><a href="FAQ.html" class="black-text">FAQs</a></li>
-                <li><a href="aboutUs.html" class="black-text">About Us</a></li>
+                <li class="sidenav_branding"><a href="index.html" class="black-text center mob-nav-brand">
+                    <img src="images/Logo-black.png" class="Showcase_img responsive-img logo" alt="">
+                    <br><span class=" logo_font_sidenav">ELEMENT</span>
+                </a></li>
+                <li class="half_rounded_border"><a href="trending.html" class="black-text">Trending</a></li>
+                <li class="half_rounded_border"><a href="blogs.html" class="black-text">Blogs</a></li>
+                <li class="half_rounded_border"><a href="FAQ.html" class="black-text">FAQs</a></li>
+                <li class="half_rounded_border"><a href="aboutUs.html" class="black-text">About Us</a></li>
+                <div class="svg-content show-on-small hide-on-med-and-up">
+                    <img src="images/sidenav.svg" class="sidenav_svg" alt="">
+                    <p class="sidenav_quote center">Escape the ordinary</p>
+                </div>
             </ul>
         </div>
     </nav>
